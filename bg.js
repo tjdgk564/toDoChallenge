@@ -7,7 +7,7 @@ const IMG_NUMBER = 5;
 function paintImage(imgNumber){
     const image = new Image();/*When called without parameters
     , it is equivalent to calling document.createElement("img")  */
-    image.src = `images/${imgNumber + 1}.jpg`;
+    image.src = `./images/${imgNumber + 1}.jpg`;
     image.classList.add("bgImage");
     body.appendChild(image);
 }
